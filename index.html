@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<link rel="stylesheet" href="../styles.css">
+	<link rel="stylesheet" href="styles.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-	<link href="..assets/css/all.css" rel="stylesheet"> <!--load all styles -->
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<title>Got Beef</title>
 </head>
 
-<body class="text-gray-800">
-	<div class="p-8 text-center">
-        <h1 class="text-4xl pb-8">Got Beef</h1>
-        <a href="mailto:manan1998@gmail.com" target="_top" class="px-8">Contact Developer</a>
-        <a href="privacy.html" class="px-8">Privacy Policy</a>
-    </div>
+<body class="text-white md:min-h-screen relative">
+
+	<nav class="p-6 flex">
+		<div class="flex items-center">
+			<img class="h-8 w-8 mr-2" src="assets/iconresize.png">
+			<span class="font-medium text-xl tracking-tight">Got Beef</span>
+		</div>
+	</nav>
+
+	<div class="content pb-48">
+		<div class="flex flex-col items-center">
+			<img class="h-56 w-56 mt-16" src="assets/iconresize.png">
+			<p class="text-lg font-thin">Settle all your beefs.</p>
+		</div>
+	
+		<div class="flex justify-center items-center left-0 right-0 flex-col md:flex-row m-auto pt-8">
+			<a class="mx-2 my-1" href="https://apps.apple.com/tt/app/got-beef/id1494233550?ign-mpt=uo%3D2">
+				<img class="appimg" src="assets/appstore.svg">
+			</a>
+			<a class="mx-2 my-1" href="https://play.google.com/store/apps/details?id=me.manandesai.gotbeef&hl=en_US">
+				<img class="appimg" src="assets/googleplay.png">
+			</a>
+		</div>
+	</div>
+
+	<div class="flex absolute bottom-0 left-0 right-0 justify-center flex-col md:flex-row m-auto py-2">
+		<div class="px-8 text-center py-1">
+			<a href="mailto:admin@gotbeef.app" target="_top">Contact Developer</a>
+		</div>
+		<div class="px-8 text-center py-1">
+			<a href="privacy.html" class="px-8 w-full md:w-1/2">Privacy Policy</a>
+		</div>
+	</div>
 </body>
+
 </html>
