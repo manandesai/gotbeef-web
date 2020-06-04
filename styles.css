@@ -15,9 +15,10 @@ body {
 
 footer {
     flex-shrink: 0;
+    background-color: #e57373;
 }
 
 .appimg {
     height: auto;
-    width: 133px;
+    width: 150px;
 }
